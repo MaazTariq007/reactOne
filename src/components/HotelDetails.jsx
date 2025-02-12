@@ -66,7 +66,9 @@ const HotelDetails = () => {
           {/* Buttons */}
           <div className="mt-6 space-x-1">
             <button
-              onClick={() => navigate(`/editPage/:${data?.id}`, { state: data })}
+              onClick={() =>
+                navigate(`/editPage/${data?.id}`, { state: data })
+              }
               className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
             >
               Edit

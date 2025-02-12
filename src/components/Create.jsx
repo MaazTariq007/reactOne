@@ -43,6 +43,7 @@ const Create = () => {
       <form className="max-w-md mx-auto mt-[50px]" onSubmit={handleOnSubmit}>
         <div className="relative z-0 w-full mb-5 group">
           <input
+            value={formData.name}
             type="text"
             name="name"
             id="name"
@@ -60,6 +61,7 @@ const Create = () => {
         </div>
         <div className="relative z-0 w-full mb-5 group">
           <input
+            value={formData.city}
             type="text"
             name="city"
             id="city"
@@ -77,6 +79,7 @@ const Create = () => {
         </div>
         <div className="relative z-0 w-full mb-5 group">
           <input
+            value={formData.country}
             type="text"
             name="country"
             id="country"
@@ -94,6 +97,7 @@ const Create = () => {
         </div>
         <div className="relative z-0 w-full mb-5 group">
           <input
+            value={formData.type}
             type="text"
             name="type"
             id="type"
@@ -111,6 +115,7 @@ const Create = () => {
         </div>
         <div className="relative z-0 w-full mb-5 group">
           <input
+            value={formData.image}
             type="text"
             name="image"
             id="image"
